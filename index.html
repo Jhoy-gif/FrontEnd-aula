@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um guia visual e interativo para entender inteligência artificial, HTML, CSS e JavaScript.">
+    <title>Oficina Web — IA, HTML, CSS e JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="study-header">
+        <a class="study-brand" href="#inicio" aria-label="Oficina Web, início"><span class="brand-mark">O</span> oficina<span>web</span></a>
+        <nav class="study-nav" aria-label="Navegação principal">
+            <a href="#conceitos">Conceitos</a>
+            <a href="#laboratorio">Laboratório</a>
+            <a href="#caminho">Por onde começar</a>
+        </nav>
+        <a class="header-cta" href="#laboratorio">Explorar <span aria-hidden="true">↘</span></a>
+    </header>
+
+    <main id="inicio">
+        <section class="study-hero">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="status-dot"></span> UM GUIA RÁPIDO PARA A WEB</p>
+                <h1>Ideias viram<br><span class="hero-highlight">experiências.</span></h1>
+                <p class="hero-intro">Entenda o que a inteligência artificial faz e como HTML, CSS e JavaScript dão vida a um site.</p>
+                <a class="hero-link" href="#conceitos">Conhecer os conceitos <span aria-hidden="true">↓</span></a>
+            </div>
+            <div class="hero-art" aria-label="Ilustração das tecnologias que compõem a web">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="orbit orbit-three"></div>
+                <div class="orbit-core"><span>&lt;/&gt;</span><small>WEB<br>STUDIO</small></div>
+                <span class="orbit-label label-ai">IA <i>✳</i></span>
+                <span class="orbit-label label-html">HTML <i>◇</i></span>
+                <span class="orbit-label label-css">CSS <i>◌</i></span>
+                <span class="orbit-label label-js">JS <i>↗</i></span>
+                <span class="art-caption">QUATRO PEÇAS.<br>UM MUNDO DE POSSIBILIDADES.</span>
+            </div>
+            <div class="hero-index"><span>01</span> / 04 <span class="index-line"></span> APRENDER FAZENDO</div>
+        </section>
+
+        <section class="concepts-section" id="conceitos">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">A CAIXA DE FERRAMENTAS</p>
+                    <h2>Quatro ideias, <span>uma web.</span></h2>
+                </div>
+                <p class="section-note">Cada tecnologia tem um papel. Juntas, elas transformam uma página simples em algo útil e interativo.</p>
+            </div>
+
+            <div class="concept-grid">
+                <article class="concept-card concept-ai">
+                    <div class="concept-top"><span class="concept-number">01</span><span class="concept-icon" aria-hidden="true">✳</span></div>
+                    <p class="concept-kicker">INTELIGÊNCIA ARTIFICIAL</p>
+                    <h3>IA</h3>
+                    <p class="concept-description">Sistemas que identificam padrões em dados para gerar respostas, previsões e conteúdo.</p>
+                    <p class="concept-example"><span>NO DIA A DIA</span> Assistentes, recomendações e tradução.</p>
+                </article>
+                <article class="concept-card concept-html">
+                    <div class="concept-top"><span class="concept-number">02</span><span class="concept-icon" aria-hidden="true">&lt;/&gt;</span></div>
+                    <p class="concept-kicker">ESTRUTURA</p>
+                    <h3>HTML</h3>
+                    <p class="concept-description">Organiza o conteúdo da página: títulos, textos, imagens, links e formulários.</p>
+                    <p class="concept-example"><span>É COMO</span> A planta e os cômodos de uma casa.</p>
+                </article>
+                <article class="concept-card concept-css">
+                    <div class="concept-top"><span class="concept-number">03</span><span class="concept-icon" aria-hidden="true">✳</span></div>
+                    <p class="concept-kicker">APARÊNCIA</p>
+                    <h3>CSS</h3>
+                    <p class="concept-description">Define cores, formas, espaçamento e adapta o layout a diferentes telas.</p>
+                    <p class="concept-example"><span>É COMO</span> A pintura e a decoração da casa.</p>
+                </article>
+                <article class="concept-card concept-js">
+                    <div class="concept-top"><span class="concept-number">04</span><span class="concept-icon" aria-hidden="true">↗</span></div>
+                    <p class="concept-kicker">INTERAÇÃO</p>
+                    <h3>JavaScript</h3>
+                    <p class="concept-description">Faz a página reagir: abre menus, valida dados e atualiza conteúdo.</p>
+                    <p class="concept-example"><span>É COMO</span> A eletricidade que põe tudo em movimento.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="lab-section" id="laboratorio">
+            <div class="lab-heading">
+                <p class="eyebrow">UM MINI LABORATÓRIO</p>
+                <h2>Veja as peças <span>em ação.</span></h2>
+                <p>Selecione uma tecnologia e descubra como ela muda este pequeno cartão.</p>
+            </div>
+            <div class="lab-workbench">
+                <div class="code-panel">
+                    <div class="panel-topline"><span>O CÓDIGO</span><span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
+                    <div class="code-tabs" role="group" aria-label="Escolha uma tecnologia">
+                        <button class="code-tab is-active" type="button" data-demo="html" aria-pressed="true">HTML</button>
+                        <button class="code-tab" type="button" data-demo="css" aria-pressed="false">CSS</button>
+                        <button class="code-tab" type="button" data-demo="js" aria-pressed="false">JS</button>
+                    </div>
+                    <pre class="code-sample"><code id="code-sample"></code></pre>
+                    <p class="code-explanation" id="code-explanation" aria-live="polite"></p>
+                </div>
+                <div class="preview-panel">
+                    <div class="panel-topline"><span>O RESULTADO</span><span class="preview-live"><i></i> AO VIVO</span></div>
+                    <div class="preview-canvas">
+                        <div class="preview-card" id="preview-card">
+                            <span class="preview-label">MINHA PÁGINA</span>
+                            <h3 id="preview-title">Olá, mundo!</h3>
+                            <p id="preview-message">Uma página começa com uma ideia.</p>
+                            <button id="preview-button" type="button">Clique aqui <span aria-hidden="true">↗</span></button>
+                        </div>
+                    </div>
+                    <p class="preview-caption">A estrutura, o estilo e a interação trabalham juntos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="path-section" id="caminho">
+            <div class="path-copy">
+                <p class="eyebrow">DO ZERO AO PRIMEIRO SITE</p>
+                <h2>Aprender também<br>é <span>experimentar.</span></h2>
+                <p>Comece pelo que aparece na tela. Depois, descubra o código por trás de cada detalhe.</p>
+            </div>
+            <ol class="path-steps">
+                <li><span>01</span><div><h3>Monte a estrutura</h3><p>Crie títulos, textos e links com HTML.</p></div><b aria-hidden="true">↗</b></li>
+                <li><span>02</span><div><h3>Escolha o visual</h3><p>Experimente cores e layouts com CSS.</p></div><b aria-hidden="true">↗</b></li>
+                <li><span>03</span><div><h3>Adicione interação</h3><p>Use JavaScript para responder às ações.</p></div><b aria-hidden="true">↗</b></li>
+                <li><span>04</span><div><h3>Explore a IA</h3><p>Use-a como apoio e confira cada resultado.</p></div><b aria-hidden="true">↗</b></li>
+            </ol>
+        </section>
+    </main>
+
+    <footer class="study-footer"><a class="study-brand" href="#inicio"><span class="brand-mark">O</span> oficina<span>web</span></a><p>Feito para aprender, testar e criar.</p><a href="#inicio">VOLTAR AO TOPO ↑</a></footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
